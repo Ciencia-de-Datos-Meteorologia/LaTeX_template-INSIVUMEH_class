@@ -13,6 +13,7 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{geometry}
 \RequirePackage[dvipsnames,table,xcdraw]{xcolor}
+\RequirePackage{titlesec}
 
 \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
 
@@ -108,4 +109,16 @@
         \vspace{12pt}
     \end{center}
 }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Redefine titles
+\titleformat{\section}
+  {\color{blue_insivumeh}\normalfont\Large\bfseries}
+  {\thesection}{1em}{}
+
+\titleformat{name=\section,numberless}
+  {\color{blue_insivumeh}\normalfont\LARGE\bfseries}
+  {}{0em}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
