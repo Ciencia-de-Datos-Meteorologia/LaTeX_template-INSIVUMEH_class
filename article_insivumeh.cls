@@ -118,7 +118,7 @@
   {\thesection}{1em}{}
 
 \titleformat{name=\section,numberless}
-  {\color{blue_insivumeh}\normalfont\LARGE\bfseries}
+  {\color{blue_insivumeh}\normalfont\Large\bfseries}
   {}{0em}{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
